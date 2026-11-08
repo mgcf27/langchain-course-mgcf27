@@ -1,0 +1,75 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments and local package directories
+.venv/
+venv/
+env/
+ENV/
+__pypackages__/
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+pip-wheel-metadata/
+
+# Test, coverage, and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.cache/
+.uv-cache/
+
+# Local environment variables and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+.aws/
+credentials.json
+service-account*.json
+*.pem
+*.key
+
+# Notebook checkpoints (keep notebooks themselves)
+.ipynb_checkpoints/
+
+# LangChain development server state and local vector stores
+.langgraph_api/
+.chroma/
+chroma_db/
+faiss_index/
+
+# Runtime output
+*.log
+logs/
+*.pid
+*.pid.lock
+
+# Editor and operating system files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Keep uv.lock and .python-version tracked for reproducible environments.
